@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniruddh's Aviation Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #1e3d59;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #3e6b89;
+        }
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #2e5075;
+        }
+        section {
+            padding: 20px;
+            display: none;
+        }
+        section.active {
+            display: block;
+        }
+        h2 {
+            color: #1e3d59;
+        }
+        .aircraft {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .aircraft img {
+            width: 150px;
+            height: auto;
+            border-radius: 5px;
+            margin-right: 20px;
+        }
+        .aircraft .details {
+            flex-grow: 1;
+        }
+        .aircraft .details h3 {
+            margin: 0 0 10px;
+        }
+        .aircraft .details p {
+            margin: 5px 0;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #1e3d59;
+            color: #fff;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Commercial Aviation Website By Aniruddh Suresh</h1>
+    </header>
+    <nav>
+        <a href="#" onclick="showSection('home')">Home</a>
+        <a href="#" onclick="showSection('airbus')">Airbus</a>
+        <a href="#" onclick="showSection('boeing')">Boeing</a>
+    </nav>
+    <section id="home" class="active">
+        <h2>Welcome to Aniruddh's Aviation Website</h2>
+        <p>Explore the fascinating world of commercial airplanes. The two main producers of these marvels of modern engineering are Airbus and Boeing. On my website, you'll delve into the rich history and intricate details of the various aircraft models produced by these industry giants. From the short-haul workhorses to the long-haul giants, you'll learn about the different types of airplanes that fly passengers and cargo across the globe, including their specifications, features, and the airlines that operate them.</p>
+    </section>
+    <section id="airbus">
+        <h2>Airbus Commercial Planes</h2>
+        
+        <div>
+            <h3>Short-Haul Flights</h3>
+            <div class="aircraft">
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.SXQNhkH4huO1L-ogFZX7vQHaE7%26pid%3DApi&f=1&ipt=0203074a77f1b53c83cd64b4e7e0e921a677bf4aac336565c8e266add8abd958&ipo=images" alt="Airbus A320">
+                <div class="details">
+                    <h3>Airbus A320</h3>
+                    <p>Approximate Cost: $98 million</p>
+                    <p>The Airbus A320 family consists of the A320-200 and the A320neo. The A320neo features new engines and improved aerodynamics, resulting in better fuel efficiency and lower emissions.</p>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <h3>Medium-Haul Flights</h3>
+            <div class="aircraft">
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.lW0F0XhndxGk-qSsei9xCgHaEP%26pid%3DApi&f=1&ipt=9647eb205d86a777b73bb93c0ccd6130b42b5fa2fe6bf926bb9b286f4c3f1b14&ipo=images" alt="Airbus A330">
+                <div class="details">
+                    <h3>Airbus A330</h3>
+                    <p>Approximate Cost: $200 million</p>
+                    <p>The Airbus A330 family includes several variants, each designed for specific operational needs. The <strong>Airbus A330-200</strong> is ideal for medium to long-haul routes, offering a balance of range and capacity:</p>
+
+<ul>
+    <li><strong>Features:</strong>
+        <ul>
+            <li>Economical operation with efficient engines and aerodynamics.</li>
+            <li>Spacious cabin layout with ergonomic seating for passenger comfort.</li>
+            <li>Significant cargo capacity for freight transportation.</li>
+        </ul>
+    </li>
+    <li><strong>Technology:</strong>
+        <ul>
+            <li>Equipped with advanced avionics and cockpit systems.</li>
+            <li>Utilizes composite materials for weight reduction and improved efficiency.</li>
+            <li>Continuous updates and improvements in engine technology and aerodynamics.</li>
+        </ul>
+    </li>
+    <li><strong>Specifications:</strong>
+        <ul>
+            <li><strong>Capacity:</strong> Typically seats around 253 passengers in a two-class layout.</li>
+            <li><strong>Range:</strong> Approximately 13,450 km (7,250 nmi).</li>
+            <li><strong>Engines:</strong> Powered by two Rolls-Royce Trent 700 or General Electric CF6 engines.</li>
+            <li><strong>Major Operators:</strong> Delta Air Lines, Qatar Airways, Air France.</li>
+        </ul>
+    </li>
+</ul>
+
+<p>The <strong>Airbus A330neo (New Engine Option)</strong> builds upon the success of the A330 family with enhanced capabilities:</p>
+
+<ul>
+    <li><strong>Features:</strong>
+        <ul>
+            <li>New generation engines for improved fuel efficiency and reduced emissions.</li>
+            <li>Enhanced aerodynamics and wingtips for better performance.</li>
+            <li>Modern cabin interior with updated amenities and passenger comfort.</li>
+        </ul>
+    </li>
+    <li><strong>Technology:</strong>
+        <ul>
+            <li>Powered by Rolls-Royce Trent 7000 engines, delivering superior efficiency.</li>
+            <li>Advanced avionics systems and cockpit technologies for enhanced operational efficiency.</li>
+            <li>Utilizes lightweight materials and advanced manufacturing techniques.</li>
+        </ul>
+    </li>
+    <li><strong>Specifications:</strong>
+        <ul>
+            <li><strong>Capacity:</strong> Varies depending on the configuration, typically more than the A330-200.</li>
+            <li><strong>Range:</strong> Approximately 12,130 km (6,550 nmi).</li>
+            <li><strong>Engines:</strong> Powered by Rolls-Royce Trent 7000 engines.</li>
+            <li><strong>Major Operators:</strong> TAP Air Portugal, AirAsia X, Delta Air Lines.</li>
+        </ul>
+    </li>
+</ul>
+
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <h3>Long-Haul Flights</h3>
+            <div class="aircraft">
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.DzWI4xgAReZVY0ApFlg1xQHaEL%26pid%3DApi&f=1&ipt=a2d162b4f65ee740fbf0fefc8d5de2bb5d766c869e060d1da13070fe0458dd32&ipo=images" alt="Airbus A350">
+                <div class="details">
+                    <h3>Airbus A350</h3>
+                    <p>Approximate Cost: $317 million</p>
+                    <p>The Airbus A350 family consists of several variants, each designed to deliver efficiency and comfort across different flight ranges:</p>
+
+<ul>
+    <li><strong>Airbus A350-900</strong></li>
+    <li><strong>Features:</strong>
+        <ul>
+            <li>Advanced aerodynamics and lightweight materials for improved fuel efficiency.</li>
+            <li>State-of-the-art cabin design with enhanced passenger comfort and spaciousness.</li>
+            <li>Efficient Rolls-Royce Trent XWB engines for reduced emissions.</li>
+        </ul>
+    </li>
+    <li><strong>Technology:</strong>
+        <ul>
+            <li>Equipped with the latest avionics systems and cockpit technologies.</li>
+            <li>Utilizes composite materials in its construction for weight reduction.</li>
+            <li>Advanced wing design for better aerodynamic performance.</li>
+        </ul>
+    </li>
+    <li><strong>Specifications:</strong>
+        <ul>
+            <li><strong>Capacity:</strong> Typically seats around 325 passengers in a three-class configuration.</li>
+            <li><strong>Range:</strong> Approximately 15,000 km (8,100 nmi).</li>
+            <li><strong>Engines:</strong> Powered by Rolls-Royce Trent XWB engines.</li>
+            <li><strong>Major Operators:</strong> Qatar Airways, Singapore Airlines, Cathay Pacific.</li>
+        </ul>
+    </li>
+</ul>
+
+<ul>
+    <li><strong>Airbus A350-1000</strong></li>
+    <li><strong>Features:</strong>
+        <ul>
+            <li>Extended fuselage for increased passenger capacity and range.</li>
+            <li>Enhanced Rolls-Royce Trent XWB-97 engines for superior performance.</li>
+            <li>Modern cabin amenities and quietest twin-aisle cabin.</li>
+        </ul>
+    </li>
+    <li><strong>Technology:</strong>
+        <ul>
+            <li>Advanced materials and manufacturing techniques for improved efficiency.</li>
+            <li>State-of-the-art cockpit with advanced avionics and fly-by-wire controls.</li>
+            <li>Optimized wing design and aerodynamic improvements.</li>
+        </ul>
+    </li>
+    <li><strong>Specifications:</strong>
+        <ul>
+            <li><strong>Capacity:</strong> Typically seats around 366 passengers in a three-class configuration.</li>
+            <li><strong>Range:</strong> Approximately 16,100 km (8,700 nmi).</li>
+            <li><strong>Engines:</strong> Powered by Rolls-Royce Trent XWB-97 engines.</li>
+            <li><strong>Major Operators:</strong> Qatar Airways, British Airways, Cathay Pacific.</li>
+        </ul>
+    </li>
+</ul>
+
+                </div>
+            </div>
+
+            <div class="aircraft">
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.8Q4AdoV7PlHdPCd3HFPBzQHaE8%26pid%3DApi&f=1&ipt=d4dad7415bdb2579cde10378e22cda11953988ecf78735ea4624598ddc05210c&ipo=images" alt="Airbus A380">
+                <div class="details">
+                    <h3>Airbus A380</h3>
+                    <p>Approximate Cost: $445 million</p>
+                    <p>The Airbus A380 is the world's largest passenger airliner, renowned for its size and capacity:</p>
+
+<ul>
+    <li><strong>Features:</strong>
+        <ul>
+            <li>Double-deck layout with spacious cabin interiors.</li>
+            <li>High seating capacity of up to 850 passengers in a single-class configuration.</li>
+            <li>Advanced wing design and efficient Rolls-Royce Trent 900 engines.</li>
+        </ul>
+    </li>
+    <li><strong>Technology:</strong>
+        <ul>
+            <li>Utilizes advanced materials for weight reduction and fuel efficiency.</li>
+            <li>State-of-the-art avionics systems and cockpit technologies.</li>
+            <li>Designed with quiet and comfortable passenger experience in mind.</li>
+        </ul>
+    </li>
+    <li><strong>Specifications:</strong>
+        <ul>
+            <li><strong>Capacity:</strong> Up to 850 passengers in a single-class configuration.</li>
+            <li><strong>Range:</strong> Approximately 15,200 km (8,200 nmi).</li>
+            <li><strong>Engines:</strong> Powered by Rolls-Royce Trent 900 engines.</li>
+            <li><strong>Major Operators:</strong> Emirates, Singapore Airlines, Qantas.</li>
+        </ul>
+    </li>
+</ul>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="boeing">
+        <h2>Boeing Commercial Planes</h2>
+        
+        <div>
+            <h3>Short-Haul Flights</h3>
+            <div class="aircraft">
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.54eE_pBXdKXhE1nNzqAjdgHaEy%26pid%3DApi&f=1&ipt=125dad9f24c2863c695783e52317a4c1de601f37b606c560ab9f3f6c7f31b987&ipo=images" alt="Boeing 737">
+                <div class="details">
+                    <h3>Boeing 737</h3>
+                    <p>Approximate Cost: $99 million</p>
+                    <p>The Boeing 737 family is a popular series of narrow-body airliners known for their reliability and efficiency:</p>
+
+<ul>
+    <li><strong>Boeing 737-700</strong></li>
+    <li><strong>Features:</strong>
+        <ul>
+            <li>Efficient CFM56 engines for fuel efficiency.</li>
+            <li>Standard seating capacity for short to medium-haul routes.</li>
+            <li>Winglets for improved aerodynamic performance.</li>
+        </ul>
+    </li>
+    <li><strong>Technology:</strong>
+        <ul>
+            <li>Modern avionics and cockpit systems.</li>
+            <li>Updated cabin interiors for passenger comfort.</li>
+            <li>Advanced maintenance and operational efficiency.</li>
+        </ul>
+    </li>
+    <li><strong>Specifications:</strong>
+        <ul>
+            <li><strong>Capacity:</strong> Typically seats around 126 passengers in a two-class configuration.</li>
+            <li><strong>Range:</strong> Approximately 6,370 km (3,440 nmi).</li>
+            <li><strong>Engines:</strong> Powered by CFM56-7B engines.</li>
+            <li><strong>Major Operators:</strong> Southwest Airlines, WestJet, United Airlines.</li>
+        </ul>
+    </li>
+</ul>
+
+<ul>
+    <li><strong>Boeing 737-800</strong></li>
+    <li><strong>Features:</strong>
+        <ul>
+            <li>Extended fuselage for increased passenger capacity.</li>
+            <li>Winglets for improved fuel efficiency.</li>
+            <li>Modern cockpit with digital systems.</li>
+        </ul>
+    </li>
+    <li><strong>Technology:</strong>
+        <ul>
+            <li>Advanced Next-Generation 737 features.</li>
+            <li>Enhanced performance and range capabilities.</li>
+            <li>Upgraded cabin interiors and passenger amenities.</li>
+        </ul>
+    </li>
+    <li><strong>Specifications:</strong>
+        <ul>
+            <li><strong>Capacity:</strong> Typically seats around 162 passengers in a two-class configuration.</li>
+            <li><strong>Range:</strong> Approximately 5,765 km (3,110 nmi).</li>
+            <li><strong>Engines:</strong> Powered by CFM56-7B engines.</li>
+            <li><strong>Major Operators:</strong> Ryanair, American Airlines, Qantas.</li>
+        </ul>
+    </li>
+</ul>
+
+<ul>
+    <li><strong>Boeing 737 MAX 8</strong></li>
+    <li><strong>Features:</strong>
+        <ul>
+            <li>New LEAP-1B engines for improved fuel efficiency.</li>
+            <li>Advanced aerodynamics for reduced emissions.</li>
+            <li>Modernized cockpit with digital displays.</li>
+        </ul>
+    </li>
+    <li><strong>Technology:</strong>
+        <ul>
+            <li>Boeing's latest MAX series enhancements.</li>
+            <li>Improved range and operational efficiency.</li>
+            <li>Enhanced passenger comfort and cabin flexibility.</li>
+        </ul>
+    </li>
+    <li><strong>Specifications:</strong>
+        <ul>
+            <li><strong>Capacity:</strong> Typically seats around 178 passengers in a two-class configuration.</li>
+            <li><strong>Range:</strong> Approximately 6,570 km (3,550 nmi).</li>
+            <li><strong>Engines:</strong> Powered by CFM LEAP-1B engines.</li>
+            <li><strong>Major Operators:</strong> Southwest Airlines, Air Canada, Norwegian Air Shuttle.</li>
+        </ul>
+    </li>
+</ul>
+
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <h3>Medium-Haul Flights</h3>
+            <div class="aircraft">
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.hTKWqVS40kD19oqYFUvlywHaE3%26pid%3DApi&f=1&ipt=dc18a0643cb715e0a5bb4fc2988126cf920606e49a1119823027a4ceb9656df4&ipo=images" alt="Boeing 757">
+                <div class="details">
+                    <h3>Boeing 757</h3>
+                    <p>Approximate Cost: $120 million</p>
+                    <p>The Boeing 757 family includes the 757-200 and 757-300. The 757-300 offers increased capacity compared to the 757-200, making it suitable for higher demand routes.</p>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <h3>Long-Haul Flights</h3>
+            <div class="aircraft">
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.oFRxkfkBWMR8hkw0k8X1WgHaDX%26pid%3DApi&f=1&ipt=3b9ffa109c05830ab350a321b0c00796b93cf51ab9d2cea1d3d3a5ed5512ea81&ipo=images" alt="Boeing 777">
+                <div class="details">
+                    <h3>Boeing 777</h3>
+                    <p>Approximate Cost: $361 million</p>
+                    <p>The Boeing 777 family, known for its range and capacity, serves both medium to long-haul routes with efficiency and comfort:</p>
+
+<ul>
+    <li><strong>Boeing 777-200LR</strong></li>
+    <li><strong>Features:</strong>
+        <ul>
+            <li>Ultra-long-range capabilities for global operations.</li>
+            <li>Advanced GE90 engines for superior performance.</li>
+            <li>Spacious and comfortable cabin layout.</li>
+        </ul>
+    </li>
+    <li><strong>Technology:</strong>
+        <ul>
+            <li>Advanced wing design and aerodynamics.</li>
+            <li>State-of-the-art cockpit technology.</li>
+            <li>Enhanced materials for weight reduction.</li>
+        </ul>
+    </li>
+    <li><strong>Specifications:</strong>
+        <ul>
+            <li><strong>Capacity:</strong> Typically seats around 317 passengers in a two-class configuration.</li>
+            <li><strong>Range:</strong> Approximately 15,843 km (8,555 nmi).</li>
+            <li><strong>Engines:</strong> Powered by GE90-110B1 engines.</li>
+            <li><strong>Major Operators:</strong> Qatar Airways, Emirates, Air India.</li>
+        </ul>
+    </li>
+</ul>
+
+<ul>
+    <li><strong>Boeing 777-300ER</strong></li>
+    <li><strong>Features:</strong>
+        <ul>
+            <li>Extended range and capacity compared to the 777-200LR.</li>
+            <li>GE90 engines for efficiency and reliability.</li>
+            <li>Modern cabin interiors with enhanced passenger amenities.</li>
+        </ul>
+    </li>
+    <li><strong>Technology:</strong>
+        <ul>
+            <li>Enhanced aerodynamics for improved fuel efficiency.</li>
+            <li>Advanced avionics systems for operational efficiency.</li>
+            <li>Optimized wing design for long-haul performance.</li>
+        </ul>
+    </li>
+    <li><strong>Specifications:</strong>
+        <ul>
+            <li><strong>Capacity:</strong> Typically seats around 365 passengers in a two-class configuration.</li>
+            <li><strong>Range:</strong> Approximately 13,650 km (7,370 nmi).</li>
+            <li><strong>Engines:</strong> Powered by GE90-115B engines.</li>
+            <li><strong>Major Operators:</strong> Emirates, Cathay Pacific, Air France.</li>
+        </ul>
+    </li>
+</ul>
+
+                </div>
+            </div>
+
+            <div class="aircraft">
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.jAOr_xVOuzGeMNeoVPCPRAHaE9%26pid%3DApi&f=1&ipt=a32025c4281ea500d664c399edb0a3aa401424c2c278c134275c80abf96690be&ipo=images" alt="Boeing 787">
+                <div class="details">
+                    <h3>Boeing 787</h3>
+                    <p>Approximate Cost: $239 million</p>
+                    <p>The Boeing 787 family, also known as the Dreamliner series, revolutionizes long-haul travel with advanced technology and efficiency:</p>
+
+<ul>
+    <li><strong>Boeing 787-8</strong></li>
+    <li><strong>Features:</strong>
+        <ul>
+            <li>Composite materials for weight reduction and fuel efficiency.</li>
+            <li>Advanced aerodynamics for improved performance.</li>
+            <li>Quiet and comfortable cabin with large windows.</li>
+        </ul>
+    </li>
+    <li><strong>Technology:</strong>
+        <ul>
+            <li>Advanced cockpit systems and avionics.</li>
+            <li>State-of-the-art Rolls-Royce Trent 1000 engines.</li>
+            <li>Electrically dimmable windows and LED lighting.</li>
+        </ul>
+    </li>
+    <li><strong>Specifications:</strong>
+        <ul>
+            <li><strong>Capacity:</strong> Typically seats around 242 passengers in a two-class configuration.</li>
+            <li><strong>Range:</strong> Approximately 13,530 km (7,305 nmi).</li>
+            <li><strong>Engines:</strong> Powered by Rolls-Royce Trent 1000 engines.</li>
+            <li><strong>Major Operators:</strong> Japan Airlines, American Airlines, Qatar Airways.</li>
+        </ul>
+    </li>
+</ul>
+
+<ul>
+    <li><strong>Boeing 787-9</strong></li>
+    <li><strong>Features:</strong>
+        <ul>
+            <li>Stretched fuselage for increased passenger capacity.</li>
+            <li>Enhanced range capabilities for long-haul flights.</li>
+            <li>Advanced GEnx-1B engines for improved efficiency.</li>
+        </ul>
+    </li>
+    <li><strong>Technology:</strong>
+        <ul>
+            <li>Further advancements in aerodynamics and efficiency.</li>
+            <li>Upgraded cabin interiors with more space and comfort.</li>
+            <li>Enhanced reliability and operational performance.</li>
+        </ul>
+    </li>
+    <li><strong>Specifications:</strong>
+        <ul>
+            <li><strong>Capacity:</strong> Typically seats around 290 passengers in a two-class configuration.</li>
+            <li><strong>Range:</strong> Approximately 14,140 km (7,635 nmi).</li>
+            <li><strong>Engines:</strong> Powered by GEnx-1B engines.</li>
+            <li><strong>Major Operators:</strong> United Airlines, Air New Zealand, Etihad Airways.</li>
+        </ul>
+    </li>
+</ul>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Aniruddh's Aviation Website. All rights reserved.</p>
+    </footer>
+    <script>
+        function showSection(sectionId) {
+            // Hide all sections
+            const sections = document.querySelectorAll('section');
+            sections.forEach(section => section.classList.remove('active'));
+            
+            // Show the selected section
+            document.getElementById(sectionId).classList.add('active');
+        }
+    </script>
+</body>
+</html>
+
